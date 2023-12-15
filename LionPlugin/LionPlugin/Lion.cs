@@ -13,5 +13,10 @@
         {
             Console.WriteLine($"{Name} goes roar.");
         }
+
+        public void Sleep()
+        {
+            Console.WriteLine($"The {Name} is sleeping.");
+        }
     }
 }
